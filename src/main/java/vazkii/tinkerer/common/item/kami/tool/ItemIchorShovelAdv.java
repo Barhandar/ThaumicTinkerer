@@ -82,7 +82,7 @@ public class ItemIchorShovelAdv extends ItemIchorShovel implements IAdvancedTool
 				boolean doY = direction.offsetY == 0;
 				boolean doZ = direction.offsetZ == 0;
 
-				ToolHandler.removeBlocksInIteration(player, world, x, y, z, doX ? -2 : 0, doY ? -1 : 0, doZ ? -2 : 0, doX ? 3 : 1, doY ? 4 : 1, doZ ? 3 : 1, -1, ToolHandler.materialsShovel, silk, fortune);
+				ToolHandler.removeBlocksInIteration(player, world, x, y, z, doX ? -2 : 0, doY ? -2 : 0, doZ ? -2 : 0, doX ? 3 : 1, doY ? 3 : 1, doZ ? 3 : 1, -1, ToolHandler.materialsShovel, silk, fortune);
 				break;
 			}
 			case 2 : {
